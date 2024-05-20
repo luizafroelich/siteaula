@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+}
+body {
+    background-color: rgb(206, 186, 97);
+}
+header{
+    height: 30%;
+    background-color:rgb(5, 5, 70);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    gap: 20px;
+
+    padding: 25px;
+}
+
+.imagem-header{
+    width: 75px;
+    border-radius: 50%;
+}
+
+h1{
+    color:rgb(206, 186, 97);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.corpo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.principal{
+    background-color: white;
+    border-radius: 20px;
+
+    margin-top: -5px;
+
+    width: 80%;
+}
+
+.menu{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 5px;
+}
+
+.paginas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+    margin-left: 15px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(5, 5, 70);
+}
+
+.carrinho{
+    margin-right: 30px;
+}
+
+* {
+	font-family: tahoma, verdana;}
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        text-align: center;
+      }
+      
+      nav {
+        background-color: rgb(5, 5, 70);
+      }
+      
+      ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+      
+      li {
+        display: inline;
+      }
+      
+      a {
+        display: inline-block;
+        color: rgb(5, 5, 70);
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+      }
+      
+      a:hover {
+        background-color: rgb(206, 186, 97);
+      }
