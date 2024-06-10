@@ -1,4 +1,60 @@
-body {background-color: rgb(255, 219, 58);
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(206, 186, 97);
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-top: 20px;
+}
+
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: center;
+  background-color: rgb(5, 5, 70);
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.product img {
+  max-width: 250px;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.product-details {
+  max-width: 500px;
+}
+
+h2 {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background: #e2e2e2;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  color: #333;
 }
 
 header{
@@ -20,76 +76,14 @@ header{
   border-radius: 50%;
 }
 
-#tudo {
-    max-width: 1280px;
-    background: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    margin: auto;
-    border-radius: 30px 30px 30px 30px;
-    box-shadow: 14px 14px 20px rgb(214, 184, 49);
-    padding: 10px;
-    border: rgb(0, 0, 0);
-    opacity: 0.85;
-    margin-top: 10px;
+h1{
+  color:rgb(206, 186, 97);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
-    width: 94%;
-    background: rgb(5, 5, 70);
-    color: rgb(255, 255, 255);
-    text-align: center;
-    
-    padding: 7px;
-    border-radius: 10px 10px 10px 10px;
-    box-shadow: 5px 5px 8px rgb(255, 255, 255);
-    border: 4px solid rgb(0, 0, 0);
-    margin-top: 10px;
-    margin-bottom: 10px;
-    letter-spacing: 0.9px;
-}
-h3 {
-  width: 94%;
-  background: rgb(5, 5, 70);
-  color: rgb(255, 255, 255);
-  text-align: center;
-  
-  padding: 7px;
-  border-radius: 10px 10px 10px 10px;
-  box-shadow: 5px 5px 8px rgb(255, 255, 255);
-  border: 4px solid rgb(0, 0, 0);
-  margin-top: 10px;
-  margin-bottom: 10px;
-  letter-spacing: 0.9px;
-}
-
-.menu {
-    list-style-type: none;
-    padding: 0;
-    width: 200px;
-    background-color: rgb(5, 5, 70);
-  }
-  
-.menu li {
-    padding: 8px 16px;
-    border-bottom: 1px solid #ddd;
-  }
-  
-.menu li:last-child {
-    border-bottom: none;
-  }
-  
-.menu li a {
-    text-decoration: none;
-    color: rgb(255, 219, 58);
-  }
-  
-.menu li a:hover {
-    background-color: rgb(255, 255, 255);
-  }
-#docinho {     width: 150px;
-    border-radius: 10px;
-    box-shadow: 3px 3px 6px #000;
-    border: 4px solid #000;
-    float: left;
-    margin-right: 12px;
+.corpo{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
