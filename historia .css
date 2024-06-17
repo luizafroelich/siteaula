@@ -87,3 +87,11 @@ body {
     flex-direction: row;
     justify-content: center;
   }
+  @media(max-width:970px ){
+    .paginas {flex-direction: column;
+      padding: 0px;}
+    li {
+      display:block;
+
+    }
+  }

@@ -103,3 +103,11 @@ iframe{
     align-items: center;
 
   }
+  @media(max-width:970px ){
+    .paginas {flex-direction: column;
+      padding: 0px;}
+    li {
+      display:block;
+
+    }
+  }

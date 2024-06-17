@@ -93,3 +93,11 @@ h3 {
     float: left;
     margin-right: 12px;
 }
+@media(max-width:970px ){
+  .paginas {flex-direction: column;
+    padding: 0px;}
+  li {
+    display:block;
+
+  }
+}

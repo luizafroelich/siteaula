@@ -63,7 +63,6 @@ button:hover {
 }
 
 
-
 *{
   margin: 0px;
 }
@@ -154,4 +153,20 @@ h1{
   width: 18%;
   border-radius: 30px;
   box-shadow: 8px 11px 20px rgb(124 124 120);
+}
+@media(max-width:970px ){
+  .paginas {flex-direction: column;
+    padding: 0px;}
+  li {
+    display:block;
+
+  }
+
+  .navpesquisa{
+    margin: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }

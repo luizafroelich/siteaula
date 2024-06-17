@@ -86,3 +86,11 @@ h3 {
 .menu li a:hover {
     background-color: rgb(255, 255, 255);
   }
+  @media(max-width:970px ){
+    .paginas {flex-direction: column;
+      padding: 0px;}
+    li {
+      display:block;
+
+    }
+  }
